@@ -10,11 +10,7 @@ function isPalindrome(string) {
         }
     }
 
-    if (isPalindrome) {
-        console.log("It is a palindrome");
-    } else {
-        console.log("It is not a palindrome");
-    }
+    return isPalindrome;
 }
 
-isPalindrome("A man a plan a canal Panama");
+console.log(isPalindrome("A man a plan a canal Panama"));
