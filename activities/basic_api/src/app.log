@@ -1,0 +1,12 @@
+2024-09-14T15:21:48.251Z [info]: Server is running on http://localhost:3000
+2024-09-14T15:30:10.377Z [info]: ,items
+2024-09-14T15:30:10.382Z [info]: Shopping list updated in data.json
+2024-09-14T15:30:10.382Z [info]: Added Item: Apple
+2024-09-14T15:32:43.702Z [info]: ,items
+2024-09-14T15:34:28.152Z [info]: ,items,0
+2024-09-14T15:34:28.158Z [info]: Shopping list updated in data.json
+2024-09-14T15:34:28.158Z [info]: Toggle Purchased: Banana: true
+2024-09-14T15:36:33.891Z [info]: ,items,1
+2024-09-14T15:36:33.899Z [info]: Shopping list updated in data.json
+2024-09-14T15:36:33.899Z [info]: Removed Item: Apple
+2024-09-14T15:36:56.304Z [info]: ,items
