@@ -1,0 +1,12 @@
+2024-09-14T21:09:04.328Z [info]: Shopping list updated in data.json
+2024-09-14T21:09:04.328Z [info]: Added Item: Bread
+2024-09-14T21:09:04.329Z [info]: Shopping list updated in data.json
+2024-09-14T21:09:04.330Z [info]: Toggle Purchased: Banana: false
+2024-09-14T21:09:04.334Z [info]: Shopping list updated in data.json
+2024-09-14T21:09:04.334Z [info]: Removed Item: Banana
+2024-09-14T21:12:09.317Z [info]: Shopping list updated in data.json
+2024-09-14T21:12:09.318Z [info]: Added Item: Bread
+2024-09-14T21:12:09.319Z [info]: Shopping list updated in data.json
+2024-09-14T21:12:09.319Z [info]: Toggle Purchased: Bread: true
+2024-09-14T21:12:09.320Z [info]: Shopping list updated in data.json
+2024-09-14T21:12:09.320Z [info]: Removed Item: Bread

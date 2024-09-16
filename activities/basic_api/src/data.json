@@ -1,8 +1,8 @@
 [
   {
-    "name": "Banana",
-    "quantity": 3,
-    "price": "5.00",
-    "purchased": true
+    "name": "Bread",
+    "quantity": 1,
+    "price": "1.99",
+    "purchased": false
   }
 ]
