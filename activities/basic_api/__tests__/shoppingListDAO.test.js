@@ -23,9 +23,17 @@ describe('DAO Tests', () => {
     expect(fs.writeFileSync).toHaveBeenCalledWith(filePath, JSON.stringify(shoppingList, null, 2));
   });
 
-  test('should get shopping list from data.json', () => {
-    const shoppingList = readShoppingList();
+  test('should read shopping list from data.json', () => {
+    // Call the function to read the shopping list
+    const shoppingList = readShoppingList(); // returns undefined for some reason
 
-    expect(shoppingList).toBe();
+    // Dynamically generate the correct file path
+    const filePath = path.join(__dirname, '../src/data.json');
+
+    // Read the shopping list from data.json
+    const data = fs.readFileSync(filePath, 'utf8');
+
+    // Check if the shopping list is correct
+    expect(shoppingList).toBe(JSON.parse(data));
   })
 });

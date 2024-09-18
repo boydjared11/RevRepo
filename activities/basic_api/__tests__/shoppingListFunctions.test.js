@@ -6,13 +6,23 @@ describe('Shopping List Functionality Tests', () => {
     expect(response).toBe('Bread has been added to the shopping list');
   });
 
-  test('should toggle purchased of a particular item', () => {
+  test('should toggle purchase status of an item based on index', () => {
     const response = togglePurchased(1);
     expect(response).toBe('Toggle purchase status of Bread');
-  })
+  });
 
-  test('should remove an item from the shopping list', () => {
+  test('should fail to toggle purchase status of an item due to invalid index', () => {
+    const response = togglePurchased(-1);
+    expect(response).toBe('Invalid Item Index');
+  });
+
+  test('should remove an item from the shopping list based on index', () => {
     const response = removeItem(1);
     expect(response).toBe('Bread has been removed');
-  })
+  });
+
+  test('should fail to remove an item from the shopping list due to invalid index', () => {
+    const response = removeItem(-1);
+    expect(response).toBe('Invalid Item Index');
+  });
 });

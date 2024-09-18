@@ -24,7 +24,9 @@ function readShoppingList(){
         fs.writeFileSync(filePath, JSON.stringify([]));
     }
 
+    console.log(filePath);
     const data = fs.readFileSync(filePath, 'utf8');
+    console.log(data);
     return JSON.parse(data);
 }
 

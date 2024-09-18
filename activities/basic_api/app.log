@@ -10,3 +10,11 @@
 2024-09-14T21:12:09.319Z [info]: Toggle Purchased: Bread: true
 2024-09-14T21:12:09.320Z [info]: Shopping list updated in data.json
 2024-09-14T21:12:09.320Z [info]: Removed Item: Bread
+2024-09-18T21:22:25.958Z [info]: Shopping list updated in data.json
+2024-09-18T21:22:25.959Z [info]: Added Item: Bread
+2024-09-18T21:22:25.960Z [info]: Shopping list updated in data.json
+2024-09-18T21:22:25.960Z [info]: Toggle Purchased: Bread: true
+2024-09-18T21:22:25.961Z [error]: Failed to toggle purchase: Invalid index - -1
+2024-09-18T21:22:25.961Z [info]: Shopping list updated in data.json
+2024-09-18T21:22:25.961Z [info]: Removed Item: Bread
+2024-09-18T21:22:25.962Z [error]: Failed to toggle purchase: Invalid index - -1
