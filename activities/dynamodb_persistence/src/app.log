@@ -1,0 +1,64 @@
+2024-09-19T18:53:05.406Z [info]: Server is running on http://localhost:3000
+2024-09-19T18:54:35.572Z [info]: Income GET: /items
+2024-09-19T18:55:14.942Z [info]: Server is running on http://localhost:3000
+2024-09-19T18:55:25.968Z [info]: Incoming GET: /items
+2024-09-19T18:56:06.940Z [info]: Incoming POST: /items
+2024-09-19T18:56:07.017Z [info]: PUT command to database complete {"$metadata":{"httpStatusCode":200,"requestId":"59ULCRPLCO2PMHUMC7HL67DI73VV4KQNSO5AEMVJF66Q9ASUAAJG","attempts":1,"totalRetryDelay":0}}
+2024-09-19T18:57:42.023Z [info]: Incoming PUT: /items/f3dfbfba-7f8e-4a9a-acb1-ee075db8151b
+2024-09-19T18:57:42.295Z [error]: Cannot read properties of undefined (reading '0')
+2024-09-19T18:58:27.896Z [info]: Incoming DELETE: /items/f3dfbfba-7f8e-4a9a-acb1-ee075db8151b
+2024-09-19T18:58:27.971Z [error]: Cannot read properties of undefined (reading '0')
+2024-09-19T20:49:09.309Z [info]: Server is running on http://localhost:3000
+2024-09-19T20:49:40.344Z [info]: Incoming PUT: /items/6edd4858-e833-487b-b0b4-9e11bef519c3
+2024-09-19T20:49:40.692Z [error]: Cannot read properties of undefined (reading '0')
+2024-09-19T20:51:18.305Z [info]: Server is running on http://localhost:3000
+2024-09-19T20:51:25.711Z [info]: Incoming PUT: /items/6edd4858-e833-487b-b0b4-9e11bef519c3
+2024-09-19T20:51:26.097Z [error]: Cannot read properties of undefined (reading '0')
+2024-09-19T21:05:12.653Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:05:40.682Z [info]: Incoming DELETE: /items/6edd4858-e833-487b-b0b4-9e11bef519c3
+2024-09-19T21:09:57.094Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:11:10.536Z [info]: Incoming PUT: /items/a23e69ed-2f97-4ec0-ac09-307fd772d253
+2024-09-19T21:12:20.040Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:12:25.573Z [info]: Incoming PUT: /items/a23e69ed-2f97-4ec0-ac09-307fd772d253
+2024-09-19T21:13:31.464Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:13:37.442Z [info]: Incoming PUT: /items/a23e69ed-2f97-4ec0-ac09-307fd772d253
+2024-09-19T21:13:37.686Z [error]: Cannot read properties of undefined (reading '0')
+2024-09-19T21:13:57.272Z [info]: Incoming POST: /items
+2024-09-19T21:13:57.347Z [info]: PUT command to database complete {"$metadata":{"httpStatusCode":200,"requestId":"454KNNF6L0NCUIOD3FD0FTO81JVV4KQNSO5AEMVJF66Q9ASUAAJG","attempts":1,"totalRetryDelay":0}}
+2024-09-19T21:14:07.398Z [info]: Incoming GET: /items
+2024-09-19T21:14:36.165Z [info]: Incoming PUT: /items/e272843b-808c-40e0-bcf0-7a60fa714d4a
+2024-09-19T21:14:36.237Z [error]: Cannot read properties of undefined (reading '0')
+2024-09-19T21:16:45.070Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:16:59.891Z [info]: Incoming PUT: /items/e272843b-808c-40e0-bcf0-7a60fa714d4a
+2024-09-19T21:17:27.674Z [info]: Incoming POST: /items
+2024-09-19T21:17:27.737Z [info]: PUT command to database complete {"$metadata":{"httpStatusCode":200,"requestId":"OPD9NP6Q9KI233KC910R7UAGK3VV4KQNSO5AEMVJF66Q9ASUAAJG","attempts":1,"totalRetryDelay":0}}
+2024-09-19T21:17:47.762Z [info]: Incoming GET: /items
+2024-09-19T21:19:52.343Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:20:19.908Z [info]: Incoming POST: /items
+2024-09-19T21:20:20.182Z [info]: PUT command to database complete {"$metadata":{"httpStatusCode":200,"requestId":"LIHOIFI9D3G8U61ISHOH1P5QBJVV4KQNSO5AEMVJF66Q9ASUAAJG","attempts":1,"totalRetryDelay":0}}
+2024-09-19T21:28:26.349Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:28:31.833Z [info]: Incoming GET: /items
+2024-09-19T21:32:21.752Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:33:19.821Z [info]: Incoming GET: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
+2024-09-19T21:33:20.087Z [error]: ExpressionAttributeValues must not be empty
+2024-09-19T21:33:55.759Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:33:59.397Z [info]: Incoming GET: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
+2024-09-19T21:33:59.623Z [error]: ExpressionAttributeValues must not be empty
+2024-09-19T21:34:55.839Z [info]: Incoming GET: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
+2024-09-19T21:34:55.908Z [error]: ExpressionAttributeValues must not be empty
+2024-09-19T21:44:31.727Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:44:37.621Z [info]: Incoming GET: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
+2024-09-19T21:47:43.918Z [info]: Server is running on http://localhost:3000
+2024-09-19T21:48:17.507Z [info]: Incoming PUT: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
+2024-09-19T21:49:02.881Z [info]: Incoming PUT: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
+2024-09-19T22:59:01.792Z [info]: Server is running on http://localhost:3000
+2024-09-19T22:59:57.586Z [info]: Incoming POST: /items
+2024-09-19T22:59:57.909Z [info]: PUT command to database complete {"$metadata":{"httpStatusCode":200,"requestId":"VDO48QEDCGEB0BNFLAKDE97O57VV4KQNSO5AEMVJF66Q9ASUAAJG","attempts":1,"totalRetryDelay":0}}
+2024-09-19T23:00:51.700Z [info]: Incoming GET: /items
+2024-09-19T23:01:48.412Z [info]: Server is running on http://localhost:3000
+2024-09-19T23:02:15.520Z [info]: Incoming POST: /items
+2024-09-19T23:02:15.806Z [info]: PUT command to database complete {"$metadata":{"httpStatusCode":200,"requestId":"SFIALKOJ98T0GSV7JSGKRDA8RFVV4KQNSO5AEMVJF66Q9ASUAAJG","attempts":1,"totalRetryDelay":0}}
+2024-09-19T23:02:32.057Z [info]: Incoming GET: /items
+2024-09-19T23:03:04.962Z [info]: Incoming PUT: /items/e272843b-808c-40e0-bcf0-7a60fa714d4a
+2024-09-19T23:03:29.098Z [info]: Incoming PUT: /items/a23e69ed-2f97-4ec0-ac09-307fd772d253
+2024-09-19T23:04:12.344Z [info]: Incoming DELETE: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
