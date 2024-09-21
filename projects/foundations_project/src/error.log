@@ -1,0 +1,34 @@
+2024-09-20T04:23:32.861Z [error]: Could not load credentials from any providers
+2024-09-20T04:24:49.254Z [error]: Could not load credentials from any providers
+2024-09-20T04:31:20.591Z [error]: Could not load credentials from any providers
+2024-09-20T04:38:42.135Z [error]: Could not load credentials from any providers
+2024-09-20T04:54:04.101Z [error]: Could not load credentials from any providers
+2024-09-20T12:59:32.248Z [error]: Could not load credentials from any providers
+2024-09-20T13:11:07.981Z [error]: Could not load credentials from any providers
+2024-09-20T14:44:14.623Z [error]: Could not load credentials from any providers
+2024-09-20T14:47:28.691Z [error]: Could not load credentials from any providers
+2024-09-20T14:47:30.958Z [error]: Could not load credentials from any providers
+2024-09-20T14:59:03.235Z [error]: Could not load credentials from any providers
+2024-09-20T14:59:52.532Z [error]: Could not load credentials from any providers
+2024-09-20T15:05:02.649Z [error]: Could not load credentials from any providers
+2024-09-20T15:14:57.911Z [error]: Could not load credentials from any providers
+2024-09-20T15:23:54.096Z [error]: Could not load credentials from any providers
+2024-09-20T15:39:35.831Z [error]: Could not load credentials from any providers
+2024-09-20T15:44:06.049Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T15:47:43.216Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T15:52:19.439Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T16:03:22.617Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T16:21:41.014Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T16:36:21.214Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T17:48:13.727Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T17:54:42.849Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:04:03.058Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:05:24.245Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:23:07.948Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:25:37.976Z [error]: Region is missing
+2024-09-20T18:27:51.476Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:40:59.018Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-21T00:00:53.101Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T00:14:52.638Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T00:20:07.019Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T00:20:58.824Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status

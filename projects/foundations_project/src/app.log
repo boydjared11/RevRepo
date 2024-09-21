@@ -1,0 +1,194 @@
+2024-09-20T01:20:03.836Z [info]: Server is running on http://localhost:3000
+2024-09-20T04:23:15.418Z [info]: Server is running on http://localhost:3000
+2024-09-20T04:23:30.839Z [info]: Incoming POST: /tickets
+2024-09-20T04:23:32.861Z [error]: Could not load credentials from any providers
+2024-09-20T04:24:47.241Z [info]: Incoming POST: /tickets
+2024-09-20T04:24:49.254Z [error]: Could not load credentials from any providers
+2024-09-20T04:31:11.451Z [info]: Server is running on http://localhost:3000
+2024-09-20T04:31:19.568Z [info]: Incoming POST: /tickets
+2024-09-20T04:31:20.591Z [error]: Could not load credentials from any providers
+2024-09-20T04:38:35.221Z [info]: Server is running on http://localhost:3000
+2024-09-20T04:38:40.110Z [info]: Incoming POST: /tickets
+2024-09-20T04:38:42.135Z [error]: Could not load credentials from any providers
+2024-09-20T04:53:09.993Z [info]: Server is running on http://localhost:3000
+2024-09-20T04:54:02.057Z [info]: Incoming POST: /tickets
+2024-09-20T04:54:04.101Z [error]: Could not load credentials from any providers
+2024-09-20T12:59:21.669Z [info]: Server is running on http://localhost:3000
+2024-09-20T12:59:31.226Z [info]: Incoming POST: /tickets
+2024-09-20T12:59:32.248Z [error]: Could not load credentials from any providers
+2024-09-20T13:10:59.038Z [info]: Server is running on http://localhost:3000
+2024-09-20T13:11:05.963Z [info]: Incoming POST: /tickets
+2024-09-20T13:11:07.981Z [error]: Could not load credentials from any providers
+2024-09-20T13:11:36.367Z [info]: Incoming GET: /
+2024-09-20T13:12:37.176Z [info]: Incoming GET: /
+2024-09-20T14:44:03.551Z [info]: Server is running on http://localhost:3000
+2024-09-20T14:44:12.595Z [info]: Incoming POST: /tickets
+2024-09-20T14:44:14.623Z [error]: Could not load credentials from any providers
+2024-09-20T14:47:20.811Z [info]: Server is running on http://localhost:3000
+2024-09-20T14:47:28.673Z [info]: Incoming POST: /tickets
+2024-09-20T14:47:28.691Z [error]: Could not load credentials from any providers
+2024-09-20T14:47:30.947Z [info]: Incoming POST: /tickets
+2024-09-20T14:47:30.958Z [error]: Could not load credentials from any providers
+2024-09-20T14:47:34.921Z [info]: Incoming GET: /
+2024-09-20T14:58:53.212Z [info]: Server is running on http://localhost:3000
+2024-09-20T14:59:01.211Z [info]: Incoming POST: /tickets
+2024-09-20T14:59:03.235Z [error]: Could not load credentials from any providers
+2024-09-20T14:59:46.524Z [info]: Server is running on http://localhost:3000
+2024-09-20T14:59:50.510Z [info]: Incoming POST: /tickets
+2024-09-20T14:59:52.532Z [error]: Could not load credentials from any providers
+2024-09-20T15:04:55.906Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:05:02.625Z [info]: Incoming POST: /tickets
+2024-09-20T15:05:02.649Z [error]: Could not load credentials from any providers
+2024-09-20T15:14:50.202Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:14:55.887Z [info]: Incoming POST: /tickets
+2024-09-20T15:14:57.911Z [error]: Could not load credentials from any providers
+2024-09-20T15:23:39.185Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:23:52.074Z [info]: Incoming POST: /tickets
+2024-09-20T15:23:54.096Z [error]: Could not load credentials from any providers
+2024-09-20T15:39:29.504Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:39:33.808Z [info]: Incoming POST: /tickets
+2024-09-20T15:39:35.831Z [error]: Could not load credentials from any providers
+2024-09-20T15:43:55.282Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:44:05.562Z [info]: Incoming POST: /tickets
+2024-09-20T15:44:06.049Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T15:47:38.125Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:47:42.931Z [info]: Incoming POST: /tickets
+2024-09-20T15:47:43.216Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T15:48:52.210Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:49:04.408Z [info]: Incoming GET: /
+2024-09-20T15:49:53.423Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:49:58.292Z [info]: Incoming GET: /
+2024-09-20T15:52:13.478Z [info]: Server is running on http://localhost:3000
+2024-09-20T15:52:19.190Z [info]: Incoming POST: /tickets
+2024-09-20T15:52:19.439Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T15:59:44.528Z [info]: Incoming GET: /
+2024-09-20T16:03:17.115Z [info]: Server is running on http://localhost:3000
+2024-09-20T16:03:22.327Z [info]: Incoming POST: /tickets
+2024-09-20T16:03:22.617Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T16:21:36.379Z [info]: Server is running on http://localhost:3000
+2024-09-20T16:21:40.711Z [info]: Incoming POST: /tickets
+2024-09-20T16:21:41.014Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T16:36:17.118Z [info]: Server is running on http://localhost:3000
+2024-09-20T16:36:20.865Z [info]: Incoming POST: /tickets
+2024-09-20T16:36:21.214Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T17:48:08.941Z [info]: Server is running on http://localhost:3000
+2024-09-20T17:48:13.373Z [info]: Incoming POST: /tickets
+2024-09-20T17:48:13.727Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T17:54:36.895Z [info]: Server is running on http://localhost:3000
+2024-09-20T17:54:42.426Z [info]: Incoming POST: /tickets
+2024-09-20T17:54:42.849Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:03:58.569Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:04:02.755Z [info]: Incoming POST: /tickets
+2024-09-20T18:04:03.058Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:05:14.168Z [info]: Incoming POST: /items
+2024-09-20T18:05:24.160Z [info]: Incoming POST: /tickets
+2024-09-20T18:05:24.245Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:16:23.770Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:16:31.398Z [info]: Incoming GET: /
+2024-09-20T18:17:44.150Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:17:49.709Z [info]: Incoming GET: /
+2024-09-20T18:19:55.035Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:19:58.681Z [info]: Incoming GET: /
+2024-09-20T18:23:03.725Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:23:07.686Z [info]: Incoming POST: /tickets
+2024-09-20T18:23:07.948Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:23:14.242Z [info]: Incoming GET: /
+2024-09-20T18:25:29.137Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:25:33.444Z [info]: Incoming GET: /
+2024-09-20T18:25:37.968Z [info]: Incoming POST: /tickets
+2024-09-20T18:25:37.976Z [error]: Region is missing
+2024-09-20T18:27:10.701Z [info]: Incoming GET: /
+2024-09-20T18:27:46.372Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:27:51.216Z [info]: Incoming POST: /tickets
+2024-09-20T18:27:51.476Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T18:27:55.167Z [info]: Incoming GET: /
+2024-09-20T18:40:39.398Z [info]: Server is running on http://localhost:3000
+2024-09-20T18:40:53.289Z [info]: Incoming GET: /
+2024-09-20T18:40:58.752Z [info]: Incoming POST: /tickets
+2024-09-20T18:40:59.018Z [error]: 1 validation error detected: Value null at 'item' failed to satisfy constraint: Member must not be null
+2024-09-20T19:04:04.933Z [info]: Server is running on http://localhost:3000
+2024-09-20T19:04:09.832Z [info]: Incoming POST: /tickets
+2024-09-20T19:05:57.251Z [info]: Incoming GET: /
+2024-09-20T19:10:18.323Z [info]: Server is running on http://localhost:3000
+2024-09-20T19:10:22.479Z [info]: Incoming GET: /
+2024-09-20T19:11:02.652Z [info]: Server is running on http://localhost:3000
+2024-09-20T19:11:05.726Z [info]: Incoming GET: /
+2024-09-20T19:11:14.984Z [info]: Incoming GET: /
+2024-09-20T19:12:59.560Z [info]: Server is running on http://localhost:3000
+2024-09-20T19:13:05.012Z [info]: Incoming GET: /
+2024-09-20T19:13:29.589Z [info]: Incoming GET: /tickets
+2024-09-20T19:14:03.285Z [info]: Incoming GET: /tickets
+2024-09-20T19:16:20.988Z [info]: Incoming GET: /tickets/?ticketStatus=%22Pending%22
+2024-09-20T19:17:31.090Z [info]: Server is running on http://localhost:3000
+2024-09-20T19:17:36.461Z [info]: Incoming POST: /tickets
+2024-09-20T19:17:41.098Z [info]: Incoming GET: /tickets
+2024-09-20T19:17:51.523Z [info]: Incoming GET: /tickets/?ticketStatus=%22Pending%22
+2024-09-20T19:18:21.632Z [info]: Incoming GET: /tickets/?ticketStatus=%22Pending%22
+2024-09-20T19:19:07.956Z [info]: Incoming GET: /tickets/?ticketStatus=%22Pending%22
+2024-09-20T19:19:28.214Z [info]: Incoming GET: /tickets/
+2024-09-20T19:19:50.766Z [info]: Incoming GET: /tickets/?ticketStatus=%22Pending%22
+2024-09-20T19:19:54.988Z [info]: Incoming GET: /tickets/
+2024-09-20T19:20:20.235Z [info]: Incoming GET: /tickets/?ticketStatus=%22Approved%22
+2024-09-20T19:20:38.131Z [info]: Incoming GET: /tickets/?ticketStatus=%22Pending%22
+2024-09-20T19:20:41.541Z [info]: Incoming GET: /tickets/
+2024-09-20T19:20:55.079Z [info]: Incoming GET: /tickets/?ticketStatus=%22Pending%22
+2024-09-20T19:27:35.943Z [info]: Server is running on http://localhost:3000
+2024-09-20T19:28:30.451Z [info]: Incoming GET: /tickets/http://localhost:3000/tickets
+2024-09-20T19:28:49.532Z [info]: Incoming GET: /tickets/661ac0d7-7bf9-4779-bac2-c886b4f453e5
+2024-09-20T19:29:15.204Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-20T19:29:28.512Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-20T19:39:52.491Z [info]: Server is running on http://localhost:3000
+2024-09-20T19:40:11.327Z [info]: Incoming DELETE: /tickets/661ac0d7-7bf9-4779-bac2-c886b4f453e5
+2024-09-20T23:58:41.355Z [info]: Server is running on http://localhost:3000
+2024-09-21T00:00:15.414Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Approved
+2024-09-21T00:00:48.959Z [info]: Server is running on http://localhost:3000
+2024-09-21T00:00:52.867Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Approved
+2024-09-21T00:00:53.101Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T00:14:46.678Z [info]: Server is running on http://localhost:3000
+2024-09-21T00:14:52.310Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Approved
+2024-09-21T00:14:52.638Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T00:20:02.025Z [info]: Server is running on http://localhost:3000
+2024-09-21T00:20:06.717Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Approved
+2024-09-21T00:20:07.019Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T00:20:55.262Z [info]: Server is running on http://localhost:3000
+2024-09-21T00:20:58.549Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Approved
+2024-09-21T00:20:58.824Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T00:50:07.604Z [info]: Server is running on http://localhost:3000
+2024-09-21T00:50:11.697Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Approved
+2024-09-21T00:50:45.253Z [info]: Incoming GET: /tickets
+2024-09-21T00:52:06.496Z [info]: Incoming PUT: /tickets/6a8bbdaa-1a5f-4f81-90b2-cb4c8eb03d70/?ticketStatus=Denied
+2024-09-21T00:52:11.782Z [info]: Incoming GET: /tickets
+2024-09-21T01:30:15.646Z [info]: Server is running on http://localhost:3000
+2024-09-21T01:30:45.780Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Denied
+2024-09-21T01:31:26.010Z [info]: Incoming PUT: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42/?ticketStatus=Approved
+2024-09-21T01:32:20.312Z [info]: Incoming PUT: /tickets/7ad9f9dc-5f0f-41dd-895a-b9b21b4065fe/?ticketStatus=Approved
+2024-09-21T01:32:36.469Z [info]: Incoming POST: /tickets
+2024-09-21T01:32:49.032Z [info]: Incoming GET: /tickets
+2024-09-21T01:33:32.888Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-21T01:33:48.470Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-21T01:33:53.882Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-21T01:34:09.841Z [info]: Incoming GET: /tickets/?ticketStatus=Wait
+2024-09-21T01:36:44.540Z [info]: Server is running on http://localhost:3000
+2024-09-21T01:36:53.797Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-21T01:37:01.981Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-21T01:37:08.381Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-21T01:37:12.753Z [info]: Incoming GET: /tickets/?ticketStatus=Wait
+2024-09-21T01:38:35.416Z [info]: Server is running on http://localhost:3000
+2024-09-21T01:38:44.864Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-21T01:38:52.062Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-21T01:38:58.937Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-21T01:39:05.039Z [info]: Incoming GET: /tickets/?ticketStatus=Wait
+2024-09-21T01:51:05.761Z [info]: Server is running on http://localhost:3000
+2024-09-21T01:51:13.501Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-21T01:51:20.447Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-21T01:51:27.295Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-21T01:51:32.323Z [info]: Incoming GET: /tickets/?ticketStatus=Wait
+2024-09-21T01:52:36.056Z [info]: Server is running on http://localhost:3000
+2024-09-21T01:52:40.037Z [info]: Incoming GET: /tickets/?ticketStatus=Wait
+2024-09-21T01:52:58.024Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-21T01:53:01.822Z [info]: Incoming GET: /tickets
+2024-09-21T01:53:10.145Z [info]: Incoming GET: /tickets/661ac0d7-7bf9-4779-bac2-c886b4f453e5
+2024-09-21T01:53:23.265Z [info]: Incoming GET: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42
+2024-09-21T01:54:54.603Z [info]: Incoming DELETE: /tickets/7ad9f9dc-5f0f-41dd-895a-b9b21b4065fe
+2024-09-21T01:55:22.534Z [info]: Server is running on http://localhost:3000
+2024-09-21T01:55:26.313Z [info]: Incoming DELETE: /tickets/7ad9f9dc-5f0f-41dd-895a-b9b21b4065fe
