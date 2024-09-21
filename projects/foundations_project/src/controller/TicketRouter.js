@@ -64,7 +64,7 @@ router.put("/:ticketId/", async (req, res) => {
     } else {
         res.status(400).json({message: "Invalid status query"});
     }
-})
+});
 
 
 // DELETE
@@ -76,6 +76,6 @@ router.delete("/:ticketId", async (req, res) => {
     } else {
         res.status(400).json({message: "Failed to delete ticket"});
     }
-})
+});
 
 module.exports = router;

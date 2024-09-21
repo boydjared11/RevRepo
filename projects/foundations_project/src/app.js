@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const logger = require('./util/logger');
+const userRouter = require('./controller/UserRouter');
 const ticketRouter = require('./controller/TicketRouter');
 
 const PORT = 3000;
@@ -12,6 +13,7 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use("/users", userRouter);
 app.use("/tickets", ticketRouter);
 
 app.listen(PORT, () => {

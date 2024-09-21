@@ -192,3 +192,31 @@
 2024-09-21T01:54:54.603Z [info]: Incoming DELETE: /tickets/7ad9f9dc-5f0f-41dd-895a-b9b21b4065fe
 2024-09-21T01:55:22.534Z [info]: Server is running on http://localhost:3000
 2024-09-21T01:55:26.313Z [info]: Incoming DELETE: /tickets/7ad9f9dc-5f0f-41dd-895a-b9b21b4065fe
+2024-09-21T03:15:03.509Z [info]: Server is running on http://localhost:3000
+2024-09-21T03:15:29.789Z [info]: Incoming GET: /tickets
+2024-09-21T03:15:41.121Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-21T03:15:47.362Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-21T03:15:52.360Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-21T03:16:13.181Z [info]: Incoming GET: /tickets/?ticketStatus=Wait
+2024-09-21T03:17:13.048Z [info]: Incoming GET: /tickets/0db54d9c-0972-4b4b-bfbd-1f5793123f42
+2024-09-21T03:17:47.267Z [info]: Incoming POST: /tickets
+2024-09-21T03:18:19.269Z [info]: Incoming PUT: /tickets/12830b33-96e8-44b9-a708-fca10d29583a/?ticketStatus=Approved
+2024-09-21T03:18:48.622Z [info]: Incoming PUT: /tickets/12830b33-96e8-44b9-a708-fca10d29583a/?ticketStatus=Approved
+2024-09-21T14:52:10.023Z [info]: Server is running on http://localhost:3000
+2024-09-21T14:52:13.925Z [info]: Incoming GET: /users
+2024-09-21T14:53:34.747Z [info]: Incoming POST: /users
+2024-09-21T14:55:48.850Z [info]: Incoming POST: /users
+2024-09-21T14:56:00.867Z [info]: Incoming POST: /users
+2024-09-21T14:56:30.190Z [info]: Incoming GET: /users
+2024-09-21T14:58:10.223Z [info]: Incoming GET: /users/0f964e4b-14a9-4713-8aa0-c50b644fc8df
+2024-09-21T14:58:57.011Z [info]: Incoming DELETE: /users/0f964e4b-14a9-4713-8aa0-c50b644fc8df
+2024-09-21T15:00:49.812Z [info]: Incoming POST: /users
+2024-09-21T15:02:01.524Z [info]: Incoming PUT: /users/d9b05b5d-dcf6-4080-8de4-482ebca4fcc4/?userRole=Manager
+2024-09-21T15:02:22.529Z [info]: Incoming PUT: /users/d9b05b5d-dcf6-4080-8de4-482ebca4fcc4/?userRole=Employee
+2024-09-21T15:02:31.471Z [info]: Incoming PUT: /users/d9b05b5d-dcf6-4080-8de4-482ebca4fcc4/?userRole=CEO
+2024-09-21T15:02:37.614Z [info]: Incoming PUT: /users/d9b05b5d-dcf6-4080-8de4-482ebca4fcc4/?userRole=Manager
+2024-09-21T15:03:42.003Z [info]: Incoming GET: /users/?userRole=Manager
+2024-09-21T15:03:49.553Z [info]: Incoming GET: /users/?userRole=Employee
+2024-09-21T15:03:59.819Z [info]: Incoming GET: /users/?userRole=CEO
+2024-09-21T15:04:07.366Z [info]: Incoming GET: /users/?userRole=Employee
+2024-09-21T15:04:15.958Z [info]: Incoming GET: /users/?userRole=Manager
