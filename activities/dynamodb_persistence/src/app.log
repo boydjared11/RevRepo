@@ -62,3 +62,5 @@
 2024-09-19T23:03:04.962Z [info]: Incoming PUT: /items/e272843b-808c-40e0-bcf0-7a60fa714d4a
 2024-09-19T23:03:29.098Z [info]: Incoming PUT: /items/a23e69ed-2f97-4ec0-ac09-307fd772d253
 2024-09-19T23:04:12.344Z [info]: Incoming DELETE: /items/6b54359a-1ebb-40f2-93e0-8e2e74302801
+2024-09-20T04:47:28.565Z [info]: Server is running on http://localhost:3000
+2024-09-20T04:47:39.369Z [info]: Incoming GET: /items
