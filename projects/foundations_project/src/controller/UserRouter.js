@@ -1,9 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
+const auth = require('../middleware/authentication');
 const userService = require('../service/UserService');
 
 // CREATE
+/*
 router.post("/", async (req, res) => {
     const data = await userService.postUser(req.body);
     
@@ -13,12 +15,20 @@ router.post("/", async (req, res) => {
         res.status(400).json({message: "Failed to create user", receivedData: req.body});
     }
 });
-
+*/
 // READ
-router.get("/", async (req, res) => {
-    const userRoleQuery = req.query.userRole;
-    
-    if (userRoleQuery) {
+router.get("/", auth.authenticateManagerToken, async (req, res) => {
+    const userUsernameQuery = req.query.userUsername;
+    const userRoleQuery = req.query.userRoleQuery;
+
+    if (userUsernameQuery) {
+        const user = await userService.getUserByUsername(userUsernameQuery);
+        if (user) {
+            res.status(200).json({user});
+        } else {
+            res.status(400).json({message: `Username ${userUsernameQuery} does not exist`});
+        }
+    } else if (userRoleQuery) {
         if (userRoleQuery === "Employee" || userRoleQuery === "Manager") {
             const users = await userService.getUsersByRole(userRoleQuery);
             if (users) {
@@ -39,18 +49,18 @@ router.get("/", async (req, res) => {
     }
 });
 
-router.get("/:userId", async (req, res) => {
+router.get("/:userId", auth.authenticateManagerToken, async (req, res) => {
     const user = await userService.getUserById(req.params.userId);
 
     if (user) {
         res.status(200).json({user});
     } else {
-        res.status(400).json({message: "Ticket not found"});
+        res.status(400).json({message: "User not found"});
     }
 });
 
 // UPDATE
-router.put("/:userId/", async (req, res) => {
+router.put("/:userId/", auth.authenticateManagerToken, async (req, res) => {
     const userRoleQuery = req.query.userRole;
 
     if (userRoleQuery === "Employee" || userRoleQuery === "Manager") {
@@ -67,7 +77,7 @@ router.put("/:userId/", async (req, res) => {
 });
 
 // DELETE
-router.delete("/:userId", async (req, res) => {
+router.delete("/:userId", auth.authenticateManagerToken, async (req, res) => {
     const data = await userService.deleteUser(req.params.userId);
 
     if (data) {

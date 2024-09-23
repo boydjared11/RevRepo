@@ -66,6 +66,26 @@ async function getUserById(userId) {
     }
 }
 
+async function getUserByUsername(userName) {
+    const command = new ScanCommand({
+        TableName,
+        FilterExpression: "#username = :username",
+        ExpressionAttributeNames: {
+            "#username": "username"
+        },
+        ExpressionAttributeValues: {
+            ":username": userName
+        }
+    });
+
+    try {
+        const data = await documentClient.send(command);
+        return data.Items[0];
+    } catch(err) {
+        logger.error(err);
+    }
+}
+
 async function getUsersByRole(userRole) {
     const command = new ScanCommand({
         TableName,
@@ -132,6 +152,7 @@ module.exports = {
     postUser,
     getAllUsers,
     getUserById,
+    getUserByUsername,
     getUsersByRole,
     updateUser,
     deleteUser

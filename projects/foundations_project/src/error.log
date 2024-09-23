@@ -32,3 +32,32 @@
 2024-09-21T00:14:52.638Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
 2024-09-21T00:20:07.019Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
 2024-09-21T00:20:58.824Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-21T19:43:45.603Z [error]: jwt expired
+2024-09-21T19:43:52.744Z [error]: jwt expired
+2024-09-21T19:44:02.131Z [error]: jwt expired
+2024-09-22T00:19:29.571Z [error]: jwt is not defined
+2024-09-22T00:20:28.558Z [error]: jwt is not defined
+2024-09-22T00:21:18.181Z [error]: jwt is not defined
+2024-09-22T00:26:13.052Z [error]: secretKey is not defined
+2024-09-22T00:30:16.727Z [error]: secretKey is not defined
+2024-09-22T00:31:59.280Z [error]: secretKey is not defined
+2024-09-22T00:40:02.640Z [error]: secret or public key must be provided
+2024-09-22T00:44:57.997Z [error]: secret or public key must be provided
+2024-09-22T00:48:28.511Z [error]: secret or public key must be provided
+2024-09-22T02:50:37.317Z [error]: secret or public key must be provided
+2024-09-22T02:58:17.182Z [error]: secret or public key must be provided
+2024-09-22T03:03:14.266Z [error]: jwt expired
+2024-09-22T05:02:50.415Z [error]: jwt malformed
+2024-09-22T05:05:46.142Z [error]: The provided key element does not match the schema
+2024-09-22T15:39:08.892Z [error]: The provided key element does not match the schema
+2024-09-22T15:39:25.746Z [error]: The provided key element does not match the schema
+2024-09-22T15:49:43.574Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-22T15:50:28.649Z [error]: The provided key element does not match the schema
+2024-09-22T15:51:24.268Z [error]: The provided key element does not match the schema
+2024-09-22T15:57:26.859Z [error]: The provided key element does not match the schema
+2024-09-22T15:57:49.883Z [error]: jwt expired
+2024-09-22T16:00:20.514Z [error]: The provided key element does not match the schema
+2024-09-22T16:03:08.321Z [error]: The provided key element does not match the schema
+2024-09-22T17:05:25.450Z [error]: jwt expired
+2024-09-22T20:23:51.570Z [error]: jwt expired
+2024-09-23T22:40:17.416Z [error]: Query condition missed key schema element: ticket_id

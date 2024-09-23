@@ -9,7 +9,7 @@ async function postUser(user) {
             user_id: uuid.v4(),
             username: user.username,
             password: user.password,
-            role: "Employee"
+            role: user.role
         });
         return data;
     }
@@ -17,7 +17,7 @@ async function postUser(user) {
 }
 
 function validateUser(user) {
-    return (user.username && user.password);
+    return (user.username && user.password && (user.role === "Manager" || user.role === "Employee"));
 }
 
 // READ
@@ -28,6 +28,11 @@ async function getAllUsers() {
 
 async function getUserById(userId) {
     const user = await userDao.getUserById(userId);
+    return user;
+}
+
+async function getUserByUsername(userName) {
+    const user = await userDao.getUserByUsername(userName);
     return user;
 }
 
@@ -52,6 +57,7 @@ module.exports = {
     postUser,
     getAllUsers,
     getUserById,
+    getUserByUsername,
     getUsersByRole,
     updateUser,
     deleteUser

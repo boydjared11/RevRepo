@@ -1,11 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
+const auth = require('../middleware/authentication');
 const ticketService = require('../service/TicketService');
 
 // CREATE
-router.post("/", async (req, res) => {
-    const data = await ticketService.postTicket(req.body);
+router.post("/", auth.authenticateToken, async (req, res) => {
+    const data = await ticketService.postTicket(req.body, req.user.user_id);
     
     if (data) {
         res.status(201).json({message: "Ticket was created", data});
@@ -15,7 +16,22 @@ router.post("/", async (req, res) => {
 });
 
 // READ
-router.get("/", async (req, res) => {
+router.get("/", auth.authenticateToken, async (req, res) => {
+    const userIdQuery = req.query.userId;
+
+    if (userIdQuery) {
+        if (userIdQuery === req.user.user_id) {
+            const tickets = await ticketService.getTicketsByUserId(userIdQuery);
+            res.status(200).json({tickets});
+        } else {
+            res.status(400).json({message: "Failed to get tickets by userId"});
+        }
+    } else {
+        res.status(400).json({message: "Invalid userId query"});
+    }
+});
+
+router.get("/", auth.authenticateManagerToken, async (req, res) => {
     const ticketStatusQuery = req.query.ticketStatus;
     
     if (ticketStatusQuery) {
@@ -39,18 +55,18 @@ router.get("/", async (req, res) => {
     }
 });
 
-router.get("/:ticketId", async (req, res) => {
+router.get("/:ticketId", auth.authenticateManagerToken, async (req, res) => {
     const ticket = await ticketService.getTicketById(req.params.ticketId);
 
     if (ticket) {
         res.status(200).json({ticket});
     } else {
-        res.status(400).json({message: "Ticket not found"});
+        res.status(400).json({message: "Failed to find ticket"});
     }
 });
 
 // UPDATE
-router.put("/:ticketId/", async (req, res) => {
+router.put("/:ticketId/", auth.authenticateManagerToken, async (req, res) => {
     const ticketStatusQuery = req.query.ticketStatus;
 
     if (ticketStatusQuery === "Approved" || ticketStatusQuery === "Denied") {
@@ -68,7 +84,7 @@ router.put("/:ticketId/", async (req, res) => {
 
 
 // DELETE
-router.delete("/:ticketId", async (req, res) => {
+router.delete("/:ticketId", auth.authenticateManagerToken, async (req, res) => {
     const data = await ticketService.deleteTicket(req.params.ticketId);
 
     if (data) {

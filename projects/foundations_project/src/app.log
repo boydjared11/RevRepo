@@ -220,3 +220,175 @@
 2024-09-21T15:03:59.819Z [info]: Incoming GET: /users/?userRole=CEO
 2024-09-21T15:04:07.366Z [info]: Incoming GET: /users/?userRole=Employee
 2024-09-21T15:04:15.958Z [info]: Incoming GET: /users/?userRole=Manager
+2024-09-21T16:26:46.097Z [info]: Server is running on http://localhost:3000
+2024-09-21T16:27:01.997Z [info]: Incoming GET: /users/?userName=user1
+2024-09-21T16:31:13.732Z [info]: Incoming GET: /users/?userName=user2
+2024-09-21T16:31:27.391Z [info]: Incoming GET: /users/?userName=user1
+2024-09-21T16:31:50.577Z [info]: Incoming GET: /users/?userUsername=user1
+2024-09-21T16:33:09.875Z [info]: Incoming GET: /users/?userUsername=user2
+2024-09-21T16:33:13.544Z [info]: Incoming GET: /users/?userUsername=user3
+2024-09-21T16:33:28.109Z [info]: Incoming GET: /users/?userUsername=user4
+2024-09-21T16:33:52.915Z [info]: Server is running on http://localhost:3000
+2024-09-21T16:34:00.084Z [info]: Incoming GET: /users/?userUsername=user1
+2024-09-21T16:34:06.325Z [info]: Incoming GET: /users/?userUsername=user2
+2024-09-21T16:34:09.166Z [info]: Incoming GET: /users/?userUsername=user3
+2024-09-21T16:34:12.051Z [info]: Incoming GET: /users/?userUsername=user4
+2024-09-21T16:34:21.315Z [info]: Incoming GET: /users/?userUsername=user1
+2024-09-21T19:04:23.143Z [info]: Server is running on http://localhost:3000
+2024-09-21T19:04:35.967Z [info]: Incoming POST: /register
+2024-09-21T19:06:42.529Z [info]: Incoming POST: /register
+2024-09-21T19:07:09.290Z [info]: Incoming POST: /register
+2024-09-21T19:07:18.644Z [info]: Incoming POST: /register
+2024-09-21T19:12:51.884Z [info]: Server is running on http://localhost:3000
+2024-09-21T19:12:55.219Z [info]: Incoming POST: /login
+2024-09-21T19:17:25.680Z [info]: Incoming GET: /protected
+2024-09-21T19:19:13.551Z [info]: Incoming GET: /manager-protected
+2024-09-21T19:25:20.909Z [info]: Incoming POST: /login
+2024-09-21T19:25:41.847Z [info]: Incoming GET: /protected
+2024-09-21T19:26:02.926Z [info]: Incoming GET: /manager-protected
+2024-09-21T19:43:45.586Z [info]: Incoming GET: /protected
+2024-09-21T19:43:45.603Z [error]: jwt expired
+2024-09-21T19:43:52.743Z [info]: Incoming GET: /protected
+2024-09-21T19:43:52.744Z [error]: jwt expired
+2024-09-21T19:44:02.130Z [info]: Incoming GET: /manager-protected
+2024-09-22T00:14:35.078Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:15:25.254Z [info]: Incoming POST: /login
+2024-09-22T00:15:48.161Z [info]: Incoming GET: /protected
+2024-09-22T00:16:04.038Z [info]: Incoming POST: /tickets
+2024-09-22T00:16:20.728Z [info]: Incoming POST: /tickets
+2024-09-22T00:19:21.223Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:19:29.570Z [info]: Incoming POST: /tickets
+2024-09-22T00:19:29.571Z [error]: jwt is not defined
+2024-09-22T00:20:28.556Z [info]: Incoming GET: /tickets
+2024-09-22T00:21:11.237Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:21:18.180Z [info]: Incoming GET: /tickets
+2024-09-22T00:26:07.566Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:26:13.051Z [info]: Incoming GET: /tickets
+2024-09-22T00:30:11.648Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:30:16.726Z [info]: Incoming GET: /tickets
+2024-09-22T00:31:16.609Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:31:27.131Z [info]: Incoming POST: /login
+2024-09-22T00:31:59.276Z [info]: Incoming GET: /tickets
+2024-09-22T00:39:57.271Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:40:02.635Z [info]: Incoming GET: /tickets
+2024-09-22T00:44:53.502Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:44:57.992Z [info]: Incoming GET: /tickets
+2024-09-22T00:48:25.310Z [info]: Server is running on http://localhost:3000
+2024-09-22T00:48:28.508Z [info]: Incoming GET: /tickets
+2024-09-22T02:50:24.676Z [info]: Server is running on http://localhost:3000
+2024-09-22T02:50:37.314Z [info]: Incoming GET: /tickets
+2024-09-22T02:58:13.672Z [info]: Server is running on http://localhost:3000
+2024-09-22T02:58:17.179Z [info]: Incoming GET: /tickets
+2024-09-22T03:03:09.842Z [info]: Server is running on http://localhost:3000
+2024-09-22T03:03:14.258Z [info]: Incoming GET: /tickets
+2024-09-22T03:04:18.322Z [info]: Server is running on http://localhost:3000
+2024-09-22T03:04:30.719Z [info]: Incoming POST: /login
+2024-09-22T03:05:22.405Z [info]: Server is running on http://localhost:3000
+2024-09-22T03:05:44.698Z [info]: Incoming POST: /login
+2024-09-22T03:06:09.083Z [info]: Incoming GET: /tickets
+2024-09-22T03:32:19.134Z [info]: Server is running on http://localhost:3000
+2024-09-22T03:32:23.869Z [info]: Incoming POST: /login
+2024-09-22T03:32:43.819Z [info]: Incoming GET: /manager-protected
+2024-09-22T03:54:27.359Z [info]: Server is running on http://localhost:3000
+2024-09-22T03:54:42.569Z [info]: Incoming POST: /login
+2024-09-22T03:55:02.822Z [info]: Incoming GET: /manager-protected
+2024-09-22T03:55:12.813Z [info]: Incoming GET: /protected
+2024-09-22T03:55:32.444Z [info]: Incoming POST: /tickets
+2024-09-22T03:57:24.042Z [info]: Incoming POST: /tickets
+2024-09-22T03:57:32.982Z [info]: Incoming POST: /tickets
+2024-09-22T03:57:39.518Z [info]: Incoming POST: /tickets
+2024-09-22T04:02:01.655Z [info]: Incoming POST: /register
+2024-09-22T04:02:51.806Z [info]: Incoming POST: /login
+2024-09-22T04:03:10.509Z [info]: Incoming GET: /protected
+2024-09-22T04:03:37.403Z [info]: Incoming POST: /tickets
+2024-09-22T04:03:44.477Z [info]: Incoming POST: /tickets
+2024-09-22T04:03:50.268Z [info]: Incoming POST: /tickets
+2024-09-22T05:00:56.651Z [info]: Server is running on http://localhost:3000
+2024-09-22T05:01:13.802Z [info]: Incoming POST: /login
+2024-09-22T05:01:36.008Z [info]: Incoming GET: /manager-protected
+2024-09-22T05:01:51.964Z [info]: Incoming GET: /tickets
+2024-09-22T05:02:50.412Z [info]: Incoming GET: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86
+2024-09-22T05:03:40.007Z [info]: Server is running on http://localhost:3000
+2024-09-22T05:04:05.504Z [info]: Incoming GET: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86
+2024-09-22T05:05:45.848Z [info]: Incoming PUT: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86/?ticketStatus=Approved
+2024-09-22T05:05:46.142Z [error]: The provided key element does not match the schema
+2024-09-22T15:38:04.909Z [info]: Server is running on http://localhost:3000
+2024-09-22T15:38:11.218Z [info]: Incoming POST: /login
+2024-09-22T15:38:47.845Z [info]: Incoming GET: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86
+2024-09-22T15:39:08.763Z [info]: Incoming PUT: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86/?ticketStatus=Denied
+2024-09-22T15:39:08.892Z [error]: The provided key element does not match the schema
+2024-09-22T15:39:25.623Z [info]: Incoming PUT: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86/?ticketStatus=Approved
+2024-09-22T15:39:25.746Z [error]: The provided key element does not match the schema
+2024-09-22T15:49:34.712Z [info]: Server is running on http://localhost:3000
+2024-09-22T15:49:43.186Z [info]: Incoming PUT: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86/?ticketStatus=Approved
+2024-09-22T15:49:43.574Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-09-22T15:50:24.830Z [info]: Server is running on http://localhost:3000
+2024-09-22T15:50:28.292Z [info]: Incoming PUT: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86/?ticketStatus=Approved
+2024-09-22T15:50:28.649Z [error]: The provided key element does not match the schema
+2024-09-22T15:51:21.199Z [info]: Server is running on http://localhost:3000
+2024-09-22T15:51:23.912Z [info]: Incoming PUT: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86/?ticketStatus=Approved
+2024-09-22T15:51:24.268Z [error]: The provided key element does not match the schema
+2024-09-22T15:55:58.743Z [info]: Server is running on http://localhost:3000
+2024-09-22T15:56:11.278Z [info]: Incoming POST: /login
+2024-09-22T15:56:37.992Z [info]: Incoming GET: /tickets
+2024-09-22T15:57:26.784Z [info]: Incoming DELETE: /tickets/733f406c-0f8e-4437-927b-d15536cf161c
+2024-09-22T15:57:26.859Z [error]: The provided key element does not match the schema
+2024-09-22T15:57:49.881Z [info]: Incoming GET: /tickets/733f406c-0f8e-4437-927b-d15536cf161c
+2024-09-22T15:59:02.017Z [info]: Server is running on http://localhost:3000
+2024-09-22T15:59:04.542Z [info]: Incoming GET: /tickets/733f406c-0f8e-4437-927b-d15536cf161c
+2024-09-22T16:00:03.858Z [info]: Server is running on http://localhost:3000
+2024-09-22T16:00:20.250Z [info]: Incoming DELETE: /tickets/733f406c-0f8e-4437-927b-d15536cf161c
+2024-09-22T16:00:20.514Z [error]: The provided key element does not match the schema
+2024-09-22T16:02:28.074Z [info]: Server is running on http://localhost:3000
+2024-09-22T16:03:07.968Z [info]: Incoming PUT: /tickets/733f406c-0f8e-4437-927b-d15536cf161c/?ticketStatus=Approved
+2024-09-22T16:03:08.321Z [error]: The provided key element does not match the schema
+2024-09-22T16:18:35.345Z [info]: Server is running on http://localhost:3000
+2024-09-22T16:18:46.950Z [info]: Incoming POST: /login
+2024-09-22T16:19:02.547Z [info]: Incoming PUT: /tickets/733f406c-0f8e-4437-927b-d15536cf161c/?ticketStatus=Approved
+2024-09-22T16:19:57.237Z [info]: Server is running on http://localhost:3000
+2024-09-22T16:20:02.018Z [info]: Incoming PUT: /tickets/733f406c-0f8e-4437-927b-d15536cf161c/?ticketStatus=Approved
+2024-09-22T16:23:14.471Z [info]: Server is running on http://localhost:3000
+2024-09-22T16:23:42.305Z [info]: Incoming DELETE: /tickets/733f406c-0f8e-4437-927b-d15536cf161c
+2024-09-22T16:24:22.142Z [info]: Server is running on http://localhost:3000
+2024-09-22T16:24:24.930Z [info]: Incoming DELETE: /tickets/733f406c-0f8e-4437-927b-d15536cf161c
+2024-09-22T17:00:54.714Z [info]: Server is running on http://localhost:3000
+2024-09-22T17:01:07.973Z [info]: Incoming POST: /login
+2024-09-22T17:01:27.297Z [info]: Incoming GET: /tickets
+2024-09-22T17:01:56.886Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-22T17:02:05.565Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-22T17:02:11.196Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-22T17:03:09.836Z [info]: Incoming GET: /tickets/2a7f0d37-0645-47e1-b357-190c9f51dfd9
+2024-09-22T17:05:25.448Z [info]: Incoming PUT: /tickets/2a7f0d37-0645-47e1-b357-190c9f51dfd9/?ticketStatus=Denied
+2024-09-22T17:06:00.558Z [info]: Server is running on http://localhost:3000
+2024-09-22T17:06:03.880Z [info]: Incoming PUT: /tickets/2a7f0d37-0645-47e1-b357-190c9f51dfd9/?ticketStatus=Denied
+2024-09-22T17:06:36.707Z [info]: Incoming DELETE: /tickets/2a7f0d37-0645-47e1-b357-190c9f51dfd9
+2024-09-22T19:15:03.997Z [info]: Server is running on http://localhost:3000
+2024-09-22T19:15:09.312Z [info]: Incoming POST: /login
+2024-09-22T19:15:29.985Z [info]: Incoming GET: /users
+2024-09-22T19:16:17.258Z [info]: Incoming GET: /users/cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-22T19:17:09.011Z [info]: Incoming GET: /users/?userUsername=user2
+2024-09-22T19:18:04.410Z [info]: Incoming PUT: /users/cec261bb-c9c4-47ad-a944-60dd02d2bd94/?userRole=Manager
+2024-09-22T19:18:34.699Z [info]: Incoming PUT: /users/cec261bb-c9c4-47ad-a944-60dd02d2bd94/?userRole=Employee
+2024-09-22T19:19:28.552Z [info]: Incoming DELETE: /users/27a7ec89-cc5b-43c2-a108-3e0b5a18d644
+2024-09-22T19:20:01.814Z [info]: Incoming POST: /register
+2024-09-22T19:57:13.768Z [info]: Server is running on http://localhost:3000
+2024-09-22T20:22:36.977Z [info]: Server is running on http://localhost:3000
+2024-09-22T20:23:27.647Z [info]: Incoming POST: /login
+2024-09-22T20:23:51.563Z [info]: Incoming GET: /tickets
+2024-09-22T20:24:06.580Z [info]: Server is running on http://localhost:3000
+2024-09-22T20:24:09.763Z [info]: Incoming GET: /tickets
+2024-09-22T20:25:28.596Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-22T20:26:54.170Z [info]: Server is running on http://localhost:3000
+2024-09-22T20:26:58.357Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-22T20:28:26.478Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-23T17:16:27.419Z [info]: Server is running on http://localhost:3000
+2024-09-23T17:17:01.600Z [info]: Incoming POST: /login
+2024-09-23T17:17:56.506Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-23T22:36:32.017Z [info]: Server is running on http://localhost:3000
+2024-09-23T22:36:39.653Z [info]: Incoming POST: /login
+2024-09-23T22:37:11.873Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-23T22:37:55.215Z [info]: Incoming GET: /tickets/?userId=27a7ec89-cc5b-43c2-a108-3e0b5a18d644
+2024-09-23T22:39:47.865Z [info]: Server is running on http://localhost:3000
+2024-09-23T22:39:55.832Z [info]: Incoming GET: /tickets/?userId=27a7ec89-cc5b-43c2-a108-3e0b5a18d644
+2024-09-23T22:40:17.124Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-23T22:40:17.416Z [error]: Query condition missed key schema element: ticket_id

@@ -86,6 +86,26 @@ async function getTicketsByStatus(ticketStatus) {
     }
 }
 
+async function getTicketsByUserId(userId) {
+    const command = new ScanCommand({
+        TableName,
+        FilterExpression: "#user_id = :user_id",
+        ExpressionAttributeNames: {
+            "#user_id": "user_id"
+        },
+        ExpressionAttributeValues: {
+            ":user_id": userId
+        }
+    });
+
+    try {
+        const data = await documentClient.send(command);
+        return data.Items;
+    } catch(err) {
+        logger.error(err);
+    }
+}
+
 // UPDATE
 async function updateTicket(ticketId, ticketStatus) {
     const ticket = await getTicketById(ticketId);
@@ -94,7 +114,8 @@ async function updateTicket(ticketId, ticketStatus) {
         const command = new UpdateCommand({
             TableName,
             Key: {
-                ticket_id: ticketId
+                ticket_id: ticketId,
+                time_stamp: ticket.time_stamp
             },
             UpdateExpression: "set #status = :status",
             ExpressionAttributeNames: {
@@ -105,7 +126,7 @@ async function updateTicket(ticketId, ticketStatus) {
             },
             ReturnValues: "ALL_NEW"
         });
-    
+        
         try {
             const data = await documentClient.send(command);
             return data.Attributes;
@@ -119,10 +140,13 @@ async function updateTicket(ticketId, ticketStatus) {
 
 // DELETE
 async function deleteTicket(ticketId) {
+    const ticket = await getTicketById(ticketId);
+
     const command = new DeleteCommand({
         TableName,
         Key: {
-            ticket_id: ticketId
+            ticket_id: ticketId,
+            time_stamp: ticket.time_stamp
         }
     });
     
@@ -139,6 +163,7 @@ module.exports = {
     getAllTickets,
     getTicketById,
     getTicketsByStatus,
+    getTicketsByUserId,
     updateTicket,
     deleteTicket
 }
