@@ -3,8 +3,8 @@ const app = express();
 const logger = require('./util/logger');
 const registerRouter = require('./controller/RegisterRouter');
 const loginRouter = require('./controller/LoginRouter');
-const protectedRouter = require('./controller/ProtectedRouter');
-const protectedManagerRouter = require('./controller/ProtectedManagerRouter');
+//const protectedRouter = require('./controller/ProtectedRouter');
+//const protectedManagerRouter = require('./controller/ProtectedManagerRouter');
 const userRouter = require('./controller/UserRouter');
 const ticketRouter = require('./controller/TicketRouter');
 
