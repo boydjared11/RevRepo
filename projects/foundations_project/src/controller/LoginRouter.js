@@ -2,11 +2,9 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const router = express.Router();
+require('dotenv').config();
 
 const userService = require('../service/UserService');
-
-// secret key for JWT signing (make sure to make this more secure in some way)
-const secretKey = "your-secret-key";
 
 router.post("/", async (req, res) => {
     const { username, password } = req.body;
@@ -24,9 +22,9 @@ router.post("/", async (req, res) => {
                 username: user.username,
                 role: user.role
             },
-            secretKey,
+            process.env.SECRET_KEY,
             {
-                expiresIn: "15m" // token expiration time (adjust as need)
+                expiresIn: "30m" // token expiration time (adjust as need)
             }
         );
 

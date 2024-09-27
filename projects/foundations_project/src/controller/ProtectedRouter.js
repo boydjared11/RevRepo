@@ -2,9 +2,7 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const logger = require('../util/logger');
 const router = express.Router();
-
-// secret key for JWT signing (make sure to make this more secure in some way)
-const secretKey = "your-secret-key";
+require('dotenv').config();
 
 router.get("/", authenticateToken, (req, res) => {
     res.json({message: "Protected Route Accessed", user: req.user});
@@ -26,7 +24,7 @@ async function authenticateToken(req, res, next) {
 
 async function decodeJWT(token) {
     try {
-        const user = await jwt.verify(token, secretKey);
+        const user = await jwt.verify(token, process.env.SECRET_KEY);
         return user;
     } catch(err) {
         logger.error(err);
