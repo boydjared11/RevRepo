@@ -24,6 +24,7 @@ app.use("/protected", protectedRouter);
 app.use("/manager-protected", protectedManagerRouter);
 
 app.use("/users", userRouter);
+//app.use("/users/:userId/tickets", ticketRouter);
 app.use("/tickets", ticketRouter);
 
 app.listen(PORT, () => {

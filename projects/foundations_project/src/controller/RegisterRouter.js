@@ -5,18 +5,25 @@ const router = express.Router();
 const userService = require('../service/UserService');
 
 router.post("/", async (req, res) => {
-    let { username, password, role } = req.body;
+    let { username, password } = req.body;
 
     const saltRounds = 10;
 
     password = await bcrypt.hash(password, saltRounds);
 
-    const data = await userService.postUser({ username, password, role });
+    // find if there is already a user with the username in the database
+    const user = await userService.getUserByUsername(username);
+
+    if (!user) {
+        const data = await userService.postUser({ username, password });
     
-    if (data) {
-        res.status(201).json({message: "User successfully registered", data});
+        if (data) {
+            res.status(201).json({message: "User successfully registered", data});
+        } else {
+            res.status(400).json({message: "Failed to register user", receivedData: req.body});
+        }
     } else {
-        res.status(400).json({message: "Failed to register user", receivedData: req.body});
+        res.status(400).json({message: "Username already exists", receivedData: req.body});
     }
 });
 

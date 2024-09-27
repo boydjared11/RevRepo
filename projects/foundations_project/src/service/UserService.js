@@ -9,7 +9,7 @@ async function postUser(user) {
             user_id: uuid.v4(),
             username: user.username,
             password: user.password,
-            role: user.role
+            role: "Employee"
         });
         return data;
     }
@@ -17,7 +17,7 @@ async function postUser(user) {
 }
 
 function validateUser(user) {
-    return (user.username && user.password && (user.role === "Manager" || user.role === "Employee"));
+    return (user.username && user.password);
 }
 
 // READ

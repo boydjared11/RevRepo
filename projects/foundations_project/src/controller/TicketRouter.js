@@ -16,6 +16,7 @@ router.post("/", auth.authenticateToken, async (req, res) => {
 });
 
 // READ
+/*
 router.get("/", auth.authenticateToken, async (req, res) => {
     const userIdQuery = req.query.userId;
 
@@ -30,6 +31,7 @@ router.get("/", auth.authenticateToken, async (req, res) => {
         res.status(400).json({message: "Invalid userId query"});
     }
 });
+*/
 
 router.get("/", auth.authenticateManagerToken, async (req, res) => {
     const ticketStatusQuery = req.query.ticketStatus;
@@ -64,7 +66,17 @@ router.get("/:ticketId", auth.authenticateManagerToken, async (req, res) => {
         res.status(400).json({message: "Failed to find ticket"});
     }
 });
+/*
+router.get("/", auth.authenticateToken, async (req, res) => {
+    const tickets = await ticketService.getTicketsByUserId(req.params.userId);
 
+    if (tickets) {
+        res.status(200).json({tickets});
+    } else {
+        res.status(400).json({message: "Failed to get tickets by userId"});
+    }
+});
+*/
 // UPDATE
 router.put("/:ticketId/", auth.authenticateManagerToken, async (req, res) => {
     const ticketStatusQuery = req.query.ticketStatus;

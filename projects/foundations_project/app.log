@@ -23,3 +23,41 @@
 2024-09-27T03:41:38.973Z [info]: Incoming POST: /login
 2024-09-27T03:41:51.158Z [info]: Incoming GET: /protected
 2024-09-27T03:41:58.798Z [info]: Incoming GET: /manager-protected
+2024-09-27T04:32:39.438Z [info]: Server is running on http://localhost:3000
+2024-09-27T04:32:48.234Z [info]: Incoming POST: /register
+2024-09-27T04:34:40.597Z [info]: Server is running on http://localhost:3000
+2024-09-27T04:34:48.407Z [info]: Incoming POST: /register
+2024-09-27T04:35:12.210Z [info]: Server is running on http://localhost:3000
+2024-09-27T04:35:14.706Z [info]: Incoming POST: /register
+2024-09-27T04:35:21.229Z [info]: Incoming POST: /register
+2024-09-27T04:41:04.354Z [info]: Server is running on http://localhost:3000
+2024-09-27T04:41:09.522Z [info]: Incoming POST: /register
+2024-09-27T04:41:22.072Z [info]: Incoming POST: /login
+2024-09-27T04:41:52.764Z [info]: Incoming GET: /protected
+2024-09-27T04:41:59.425Z [info]: Incoming GET: /manager-protected
+2024-09-27T04:42:19.442Z [info]: Incoming GET: /users
+2024-09-27T04:43:44.046Z [info]: Incoming GET: /users/cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-27T04:44:04.278Z [info]: Incoming GET: /users/?userUsername=user2
+2024-09-27T04:44:26.507Z [info]: Incoming PUT: /users/cec261bb-c9c4-47ad-a944-60dd02d2bd94/?userRole=Manager
+2024-09-27T04:44:35.443Z [info]: Incoming PUT: /users/cec261bb-c9c4-47ad-a944-60dd02d2bd94/?userRole=Employee
+2024-09-27T04:45:12.293Z [info]: Incoming DELETE: /users/78ba913e-7fe1-49d0-a26d-1d430504f145
+2024-09-27T04:54:41.284Z [info]: Server is running on http://localhost:3000
+2024-09-27T04:54:47.591Z [info]: Incoming POST: /login
+2024-09-27T04:55:13.000Z [info]: Incoming GET: /tickets
+2024-09-27T04:56:11.310Z [info]: Incoming PUT: /tickets/bb123b83-4794-421b-bf30-c1ecf92b62b6/?ticketStatus=Approved
+2024-09-27T04:56:37.852Z [info]: Incoming PUT: /tickets/f4687449-2f5e-49b9-b7da-f9f7b53bb694/?ticketStatus=Approved
+2024-09-27T04:57:19.020Z [info]: Incoming PUT: /tickets/cec261bb-c9c4-47ad-a944-60dd02d2bd94/?ticketStatus=Denied
+2024-09-27T05:01:50.959Z [info]: Server is running on http://localhost:3000
+2024-09-27T05:01:53.417Z [info]: Incoming PUT: /tickets/d603305c-8803-4d3a-b637-e1ea7b83f0c1/?ticketStatus=Denied
+2024-09-27T05:02:30.475Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-27T05:02:39.262Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-27T05:02:46.099Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-27T05:03:20.731Z [info]: Incoming GET: /tickets
+2024-09-27T05:03:42.656Z [info]: Incoming DELETE: /tickets/310bf58d-a1c2-498e-813f-e106bc012c86
+2024-09-27T05:06:31.059Z [info]: Server is running on http://localhost:3000
+2024-09-27T05:06:34.009Z [info]: Incoming POST: /login
+2024-09-27T05:06:53.123Z [info]: Incoming POST: /tickets
+2024-09-27T05:07:06.636Z [info]: Incoming GET: /protected
+2024-09-27T05:07:15.410Z [info]: Incoming GET: /manager-protected
+2024-09-27T05:07:24.017Z [info]: Incoming GET: /users
+2024-09-27T05:07:40.534Z [info]: Incoming GET: /tickets
