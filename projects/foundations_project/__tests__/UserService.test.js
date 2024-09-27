@@ -18,7 +18,7 @@ describe('User Service Functionality Tests', () => {
 
     beforeEach(() => {
         ddbMock.reset();
-      });
+    });
     
     test('postUser should return a http status code of 200', async () => {
         ddbMock.on(PutCommand).resolves({
@@ -128,7 +128,7 @@ describe('User Service Functionality Tests', () => {
         
         const user = await userService.getUserById("user4");
         expect(ddbMock).toHaveReceivedCommand(QueryCommand);
-        expect(user).toStrictEqual(undefined);
+        expect(user).toBe(undefined);
     });
 
     test('getUserByUsername should return a User by their username', async () => {
