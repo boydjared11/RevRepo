@@ -61,3 +61,57 @@
 2024-09-27T05:07:15.410Z [info]: Incoming GET: /manager-protected
 2024-09-27T05:07:24.017Z [info]: Incoming GET: /users
 2024-09-27T05:07:40.534Z [info]: Incoming GET: /tickets
+2024-09-27T05:17:53.378Z [info]: Server is running on http://localhost:3000
+2024-09-27T05:18:22.954Z [info]: Incoming POST: /login
+2024-09-27T05:18:43.212Z [info]: Incoming GET: /tickets
+2024-09-27T05:19:35.695Z [info]: Incoming GET: /tickets/cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-27T14:38:24.836Z [info]: Server is running on http://localhost:3000
+2024-09-27T14:38:32.222Z [info]: Incoming POST: /login
+2024-09-27T14:39:21.059Z [info]: Incoming GET: /tickets
+2024-09-27T14:39:48.257Z [info]: Incoming GET: /tickets/cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-27T14:40:12.422Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-27T14:40:43.632Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-27T14:40:49.953Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-27T14:40:59.675Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-27T14:41:05.127Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-27T14:41:15.622Z [info]: Incoming GET: /users
+2024-09-27T14:41:32.427Z [info]: Incoming GET: /tickets/?userId=0d806a16-4b9a-4464-a6d0-4370e27eee75
+2024-09-27T15:01:05.167Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:01:27.161Z [info]: Incoming POST: /register
+2024-09-27T15:01:38.851Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:01:42.299Z [info]: Incoming POST: /register
+2024-09-27T15:02:53.451Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:02:56.947Z [info]: Incoming POST: /register
+2024-09-27T15:03:44.442Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:03:48.612Z [info]: Incoming POST: /register
+2024-09-27T15:03:48.915Z [error]: ExpressionAttributeValues must not be empty
+2024-09-27T15:06:59.643Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:07:08.929Z [info]: Incoming POST: /register
+2024-09-27T15:08:37.929Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:08:43.945Z [info]: Incoming POST: /register
+2024-09-27T15:09:51.235Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:09:59.312Z [info]: Incoming POST: /register
+2024-09-27T15:10:08.616Z [info]: Incoming POST: /register
+2024-09-27T15:10:12.746Z [info]: Incoming POST: /register
+2024-09-27T15:10:23.373Z [info]: Incoming POST: /register
+2024-09-27T15:10:45.453Z [info]: Incoming POST: /login
+2024-09-27T15:10:58.837Z [info]: Incoming POST: /login
+2024-09-27T15:14:59.877Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:15:13.491Z [info]: Incoming POST: /login
+2024-09-27T15:15:22.880Z [info]: Incoming POST: /login
+2024-09-27T15:15:26.871Z [info]: Incoming POST: /login
+2024-09-27T15:40:42.778Z [info]: Server is running on http://localhost:3000
+2024-09-27T15:41:01.464Z [info]: Incoming POST: /register
+2024-09-27T15:41:08.453Z [info]: Incoming POST: /register
+2024-09-27T15:41:17.322Z [info]: Incoming POST: /register
+2024-09-27T15:41:31.413Z [info]: Incoming POST: /login
+2024-09-27T15:41:59.241Z [info]: Incoming POST: /tickets
+2024-09-27T15:42:13.745Z [info]: Incoming GET: /tickets
+2024-09-27T15:42:30.090Z [info]: Incoming GET: /tickets/?ticketStatus=Pending
+2024-09-27T15:42:37.829Z [info]: Incoming GET: /tickets/?ticketStatus=Approved
+2024-09-27T15:42:43.937Z [info]: Incoming GET: /tickets/?ticketStatus=Denied
+2024-09-27T15:43:06.037Z [info]: Incoming GET: /tickets/?userId=0d806a16-4b9a-4464-a6d0-4370e27eee75
+2024-09-27T15:43:18.314Z [info]: Incoming GET: /users
+2024-09-27T15:43:34.690Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
+2024-09-27T15:44:20.144Z [info]: Incoming PUT: /tickets/e0c553f8-e49b-4b29-99cd-eb50bc2a45d3/?ticketStatus=Denied
+2024-09-27T15:44:31.359Z [info]: Incoming PUT: /tickets/e0c553f8-e49b-4b29-99cd-eb50bc2a45d3/?ticketStatus=Denied

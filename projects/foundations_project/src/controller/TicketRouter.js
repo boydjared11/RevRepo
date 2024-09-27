@@ -33,8 +33,9 @@ router.get("/", auth.authenticateToken, async (req, res) => {
 });
 */
 
-router.get("/", auth.authenticateManagerToken, async (req, res) => {
+router.get("/", auth.authenticateToken, async (req, res) => {
     const ticketStatusQuery = req.query.ticketStatus;
+    const userIdQuery = req.query.userId;
     
     if (ticketStatusQuery) {
         if (ticketStatusQuery === "Approved" || ticketStatusQuery === "Denied" || ticketStatusQuery === "Pending") {
@@ -46,6 +47,13 @@ router.get("/", auth.authenticateManagerToken, async (req, res) => {
             }
         } else {
             res.status(400).json({message: "Invalid status query"});
+        }
+    } else if (userIdQuery) {
+        if ((userIdQuery === req.user.user_id) || (req.user.role === "Manager")) {
+            const tickets = await ticketService.getTicketsByUserId(userIdQuery);
+            res.status(200).json({tickets});
+        } else {
+            res.status(400).json({message: "Failed to get tickets by userId"});
         }
     } else {
         const tickets = await ticketService.getAllTickets();

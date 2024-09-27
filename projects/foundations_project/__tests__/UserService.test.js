@@ -31,7 +31,7 @@ describe('User Service Functionality Tests', () => {
             {
                 username: "username1",
                 password: "password1",
-                role: "Manager"
+                //role: "Manager"
             }
         );
         expect(ddbMock).toHaveReceivedCommand(PutCommand);
