@@ -32,7 +32,7 @@ router.post("/", async (req, res) => {
             res.json({token});
         }
     } else {
-        res.status(400).json({message: "Need both a username and password"});
+        res.status(400).json({message: "Username and password required"});
     }
 });
 

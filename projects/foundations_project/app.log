@@ -115,3 +115,11 @@
 2024-09-27T15:43:34.690Z [info]: Incoming GET: /tickets/?userId=cec261bb-c9c4-47ad-a944-60dd02d2bd94
 2024-09-27T15:44:20.144Z [info]: Incoming PUT: /tickets/e0c553f8-e49b-4b29-99cd-eb50bc2a45d3/?ticketStatus=Denied
 2024-09-27T15:44:31.359Z [info]: Incoming PUT: /tickets/e0c553f8-e49b-4b29-99cd-eb50bc2a45d3/?ticketStatus=Denied
+2024-09-28T00:22:39.919Z [info]: Server is running on http://localhost:3000
+2024-09-28T00:22:49.148Z [info]: Incoming POST: /login
+2024-09-28T00:23:13.204Z [info]: Incoming GET: /tickets
+2024-09-28T00:24:30.083Z [info]: Incoming PUT: /tickets/56b9285b-08cf-4891-9be1-fde4895275af/?ticketStatus=Denied
+2024-09-28T00:24:30.197Z [error]: The provided key element does not match the schema
+2024-09-28T00:25:06.139Z [info]: Server is running on http://localhost:3000
+2024-09-28T00:25:15.751Z [info]: Incoming PUT: /tickets/56b9285b-08cf-4891-9be1-fde4895275af/?ticketStatus=Approved
+2024-09-28T00:25:38.996Z [info]: Incoming DELETE: /tickets/56b9285b-08cf-4891-9be1-fde4895275af

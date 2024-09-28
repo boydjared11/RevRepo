@@ -93,7 +93,7 @@ router.put("/:ticketId/", auth.authenticateManagerToken, async (req, res) => {
         const updatedTicket = await ticketService.updateTicket(req.params.ticketId, ticketStatusQuery);
 
         if (updatedTicket) {
-            res.status(200).json({message: `Ticket status was ${updatedTicket.status}`, updatedTicket});
+            res.status(200).json({message: `Ticket has been ${updatedTicket.status}`, updatedTicket});
         } else {
             res.status(400).json({message: "Failed to update ticket status"});
         }

@@ -45,14 +45,27 @@ async function getTicketsByUserId(userId) {
 
 // UPDATE
 async function updateTicket(ticketId, ticketStatus) {
-    const updatedTicket = await ticketDao.updateTicket(ticketId, ticketStatus);
-    return updatedTicket;
+    const ticket = await ticketDao.getTicketById(ticketId);
+
+    if (ticket.status === "Pending") {
+        const updatedTicket = await ticketDao.updateTicket(ticket, ticketStatus);
+        return updatedTicket;
+    } else {
+        return null;
+    }
+
 }
 
 // DELETE
 async function deleteTicket(ticketId) {
-    const data = await ticketDao.deleteTicket(ticketId);
-    return data;
+    const ticket = await ticketDao.getTicketById(ticketId);
+
+    if (ticket) {
+        const data = await ticketDao.deleteTicket(ticket);
+        return data;
+    } else {
+        return null;
+    }
 }
 
 module.exports = {

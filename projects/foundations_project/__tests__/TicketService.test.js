@@ -269,7 +269,7 @@ describe('Ticket Service Functionality Tests', () => {
             ]
         });
 
-        const updatedTicket = await ticketService.updateTicket("ticket1", "Approved");
+        const updatedTicket = await ticketService.updateTicket("ticket1", "Denied");
         expect(ddbMock).toHaveReceivedCommand(QueryCommand);
         expect(updatedTicket).toBe(null);
     });
@@ -295,7 +295,18 @@ describe('Ticket Service Functionality Tests', () => {
             });
 
         const data = await ticketService.deleteTicket("ticket2");
+        expect(ddbMock).toHaveReceivedCommand(QueryCommand);
         expect(ddbMock).toHaveReceivedCommand(DeleteCommand);
         expect(data.$metadata.httpStatusCode).toBe(200);
+    });
+
+    test('deleteUser should return null since there is no User with the userId that exists', async () => {
+        ddbMock.on(QueryCommand).resolves({
+            Items: []
+        });
+
+        const data = await ticketService.deleteTicket("ticket4");
+        expect(ddbMock).toHaveReceivedCommand(QueryCommand);
+        expect(data).toBe(null);
     });
 });

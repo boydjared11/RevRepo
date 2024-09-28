@@ -107,45 +107,37 @@ async function getTicketsByUserId(userId) {
 }
 
 // UPDATE
-async function updateTicket(ticketId, ticketStatus) {
-    const ticket = await getTicketById(ticketId);
-
-    if (ticket.status === "Pending") {
-        const command = new UpdateCommand({
-            TableName,
-            Key: {
-                ticket_id: ticketId,
-                time_stamp: ticket.time_stamp
-            },
-            UpdateExpression: "set #status = :status",
-            ExpressionAttributeNames: {
-                "#status": "status"
-            },
-            ExpressionAttributeValues: {
-                ":status": ticketStatus
-            },
-            ReturnValues: "ALL_NEW"
-        });
-        
-        try {
-            const data = await documentClient.send(command);
-            return data.Attributes;
-        } catch(err) {
-            logger.error(err);
-        }
-    } else {
-        return null;
+async function updateTicket(ticket, ticketStatus) {
+    const command = new UpdateCommand({
+        TableName,
+        Key: {
+            ticket_id: ticket.ticket_id,
+            time_stamp: ticket.time_stamp
+        },
+        UpdateExpression: "set #status = :status",
+        ExpressionAttributeNames: {
+            "#status": "status"
+        },
+        ExpressionAttributeValues: {
+            ":status": ticketStatus
+        },
+        ReturnValues: "ALL_NEW"
+    });
+    
+    try {
+        const data = await documentClient.send(command);
+        return data.Attributes;
+    } catch(err) {
+        logger.error(err);
     }
 }
 
 // DELETE
-async function deleteTicket(ticketId) {
-    const ticket = await getTicketById(ticketId);
-
+async function deleteTicket(ticket) {
     const command = new DeleteCommand({
         TableName,
         Key: {
-            ticket_id: ticketId,
+            ticket_id: ticket.ticket_id,
             time_stamp: ticket.time_stamp
         }
     });
